@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.Container {
+  display: flex;
+  width: 100%;
+  height: 651px;
+  background-color: #000000;
+}
+.Container .Sidebar {
+  width: 23%;
+  height: 640px;
+  background-color: #000000;
+}
+.Container .Sidebar .Home {
+  margin: auto;
+  width: 300px;
+  height: 120px;
+  padding: 20px 30px 10px;
+  background-color: #121212;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.Container .Sidebar .Library {
+  margin: auto;
+  width: 300px;
+  height: 500px;
+  background-color: #121212;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.Container .Main {
+  width: 75%;
+  height: auto;
+  background-color: #121212;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  overflow: auto;
+}
+.Sidebar .Home {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  color: #ffffff;
+}
+.Sidebar .Home h6 {
+  display: inline-flex;
+}
+.Sidebar .Home #search {
+  color: #b3b3b3;
+}
+.Sidebar .Home #search:hover {
+  color: #ffffff;
+}
+.Sidebar .Home .icon {
+  margin-right: 30px;
+}
+.Sidebar .Library {
+  padding: 10px 20px 10px;
+}
+.Sidebar .Library #lib {
+  color: #b3b3b3;
+}
+.Sidebar .Library #lib:hover {
+  color: #ffffff;
+}
+
+.Sidebar .Library .right {
+  float: right;
+  margin-top: 5px;
+}
+.Sidebar .Library .icon {
+  margin-right: 20px;
+}
+.Sidebar .Library > p {
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #232323;
+  border: 1px solid #232323;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+.Sidebar .Library #recent {
+  display: flex;
+  justify-content: space-between;
+  color: #b3b3b3;
+}
+.Sidebar .Library .PlayList {
+  display: flex;
+  width: 250px;
+  height: 70px;
+  padding: 8px 10px 8px;
+  cursor: pointer;
+}
+.Sidebar .Library .PlayList:hover {
+  background-color: #757474;
+  border-radius: 10px;
+}
+
+.Sidebar .Library .PlayList img {
+  margin-right: 15px;
+  border-radius: 50px;
+}
+
+.Sidebar .Library .PlayList h6 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+.Sidebar .Library .PlayList p {
+  color: #b3b3b3;
+}
+.Main .Nav {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+}
+.Main .Nav #icon {
+  color: #ffffff;
+}
+.Main .Nav #right {
+  margin-left: 55%;
+}
+.Main .Nav #right button {
+  font-weight: bold;
+  padding: 5px 20px 5px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+  background-color: #ffffff;
+}
+.Main .Nav #right button + button {
+  font-weight: bold;
+  padding: 5px 20px 5px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: #ffffff;
+  background-color: #000000;
+}
+.Main .Nav #right svg {
+  margin-top: -5px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #ffffff;
+}
+.Main .Section {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.Main .Section .Content {
+  display: flex;
+  justify-content: space-between;
+}
+.Main .Section .Content h5 {
+  color: #ffffff;
+  font-weight: 900;
+}
+.Main .Section .Content p {
+  color: #7e7d7d;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.Main .Section .CardWrapper {
+  display: flex;
+  gap: 30px;
+  margin-left: 10px;
+}
+.Main .Section .Cards {
+  width: 173px;
+  height: 250px;
+  padding: 15px;
+  background-color: #171717;
+  border-radius: 5px;
+}
+.Main .Section .Cards:hover {
+  background-color: #232323;
+}
+.Main .Section .Cards #card img {
+  margin: auto;
+  border-radius: 5px;
+}
+.Main .Section .Cards #card h6 {
+  margin-top: 15px;
+  color: #ffffff;
+}
+.Main .Section .Cards #card p {
+  font-size: 13px;
+  font-weight: 600;
+  color: #757474;
+}
+.Main footer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  padding: 50px 0px 30px;
+  gap: 40px;
+  color: #ffffff;
+}
+.Main footer ul {
+  list-style-type: none;
+  font-weight: 600;
+}
+.Main footer ul li ~ li {
+  color: #757474;
+}
+.Main footer ul li {
+  margin-top: 10px;
+}
+.Main footer .icons {
+  display: flex;
+  gap: 20px;
+  margin-left: 180px;
+}
+.Main footer .icons .round {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #292929;
+  border-radius: 50px;
+  padding: 5px 9px 2px;
+  background-color: #292929;
+}
+.Main footer .icons .round:hover {
+  background-color: #5f5f5f;
+}
